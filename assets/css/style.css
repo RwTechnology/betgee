@@ -1,0 +1,124 @@
+QMainWindow{
+            font-family: "Helvetica Neue", sans-serif;
+            font-size: 14px;
+            background-color: #202124;
+            color:  #fff;
+}
+
+QLabel{
+             color:  white;
+             font-size: 13px;
+             font-style: italic;
+}
+
+QDialog{
+    background-color: none;
+}
+
+QLineEdit, QDateEdit, QComboBox{
+    color: #fff;
+}
+
+QTextEdit{
+    background-color: none;
+    font-style: italic;
+    padding: 10px;
+    border: none;
+    color: #fff;
+}
+QGroupBox,QPushButton{
+            border:none;
+}
+
+QGroupBox#border{
+            border:none;
+            border: 1px solid #F2F3F4;
+            border-radius: 5px;
+            color: #fff;
+}
+
+
+QLineEdit#fields,QDateEdit#fields,QComboBox#fields,QTimeEdit#fields,QLabel#fields{
+            padding: 10px;
+            border-radius: 5px;
+}
+
+QPushButton#btn_primary{
+            padding: 10px;
+            background-color: #0B71EC;
+            border-radius: 5px;
+            margin: 10px;
+            color: white;
+}
+
+QPushButton#btn{
+            padding: 10px;
+            background-color: grey;
+            border-radius: 5px;
+            margin: 10px;
+            color:  #fff;
+}
+
+QTable, QTableWidget{
+            color: white;
+            padding:10px;
+            border:50px;
+}
+QPushButton#btn_menu{
+            padding: 5px;
+            background-color: grey;
+            border: 5px;
+            margin: 5px;
+            color:  #fff;
+            border-radius: 5px;
+}
+
+QPushButton#profil_btn{
+        border-radius:15px;
+        padding:8px;
+        background-color:#38BDF9;
+        color:#fff;
+}
+
+QPushButton#btn_disconnect{
+            padding: 5px;
+            background-color: red;
+            border-radius: 5px;
+            margin: 5px;
+            color: #fff;
+}
+QLabel#app_name{
+            font-size: 20px;
+            font-style: italic;
+            color: grey;
+            font-weight: bold;
+}
+
+QGroupBox {
+    background: transparent;
+    border: none;
+}
+
+QWidget#header {
+    background-color: #151515;
+}
+
+QWidget#sidebar {
+    background-color: #303134;
+}
+
+QWidget#body {
+    background-color: #303134;
+}
+
+QWidget#bet_info {
+    background-color: #303134;
+}
+
+QWidget#option {
+    background-color: #303134;
+}
+
+QGroupBox#statistic{
+        border: 1px solid #fff;
+}
